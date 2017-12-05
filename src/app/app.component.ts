@@ -3,6 +3,8 @@ import {Counter}   from "./counter/counter";
 import {Clock}   from "./clock/clock";
 import  {Person}  from "./Person/Person";
 import  {Multiplication}  from "./Multiplication/Multiplication";
+import {TaskList}  from "./Todo/TaskList";
+import {Palindrome}  from "./Palindrome/Palindrome";
 
 
  
@@ -39,6 +41,22 @@ import  {Multiplication}  from "./Multiplication/Multiplication";
          </div>
          <div class="col-md-8" >
             <multiply></multiply>
+         </div>
+      </div>
+      <div class="row" >
+         <div class="col-md-2" >
+             Palindrome 
+         </div>
+         <div class="col-md-8" >
+            <palindrome></palindrome>
+         </div>
+      </div>
+      <div class="row" >
+         <div class="col-md-2" >
+         TaskList 
+         </div>
+         <div class="col-md-8" >
+            <tasklist></tasklist>
          </div>
       </div>
   `,
